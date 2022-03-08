@@ -1,0 +1,28 @@
+<odoo>
+    <data>
+
+
+
+
+
+
+
+
+
+
+
+     <record id="department_action" model="ir.actions.act_window">
+        <field name="name">Department</field>
+        <field name="res_model">uni.department</field>
+     </record>
+
+
+
+
+
+
+
+        <menuitem id ="root_menu" name="University"/>
+        <menuitem id ="department_menu" name="Department" parent="root_menu" action="department_action"/>
+    </data>
+</odoo>

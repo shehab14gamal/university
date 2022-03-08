@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+
+
+       <record id="teacher_action" model="ir.actions.act_window">
+        <field name="name">Teacher</field>
+        <field name="res_model">uni.teacher</field>
+     </record>
+
+
+
+
+
+
+
+
+
+
+        <menuitem id="teacher_menu" name="Teacher" parent="root_menu" action="teacher_action"/>
+    </data>
+</odoo>
